@@ -19,7 +19,7 @@ export const sidebarLink: SidebarLink[] = [
         label: 'Home'
     } , 
     {
-        imgURL : '/assets/icons/user.svg' , 
+        imgURL : '/assets/icons/community.svg' , 
         route: '/community' , 
         label: 'Community'
     }, 

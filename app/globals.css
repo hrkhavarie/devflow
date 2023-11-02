@@ -29,7 +29,7 @@ body{
         @apply btn-light-800 dark:bg-dark-300 !important;
     }
 
-    .btn-secondery{
+    .btn-secondary{
         @apply bg-light-800 dark:bg-dark-400
     }
 
@@ -87,7 +87,7 @@ body{
     .custom-scrollbar::-webkit-scrollbar{
         width:3px;
         height: 3px;
-        border-radius: 2px;
+        
     }
 
     
