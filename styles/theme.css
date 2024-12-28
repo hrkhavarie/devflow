@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @layer utilities {
-    .background-lihgt850_dark100{
+    .background-light850_dark100{
         @apply bg-light-850 dark:bg-dark-100;
     }
 
-    .background-lihgt950_dark200{
+    .background-light900_dark200{
         @apply bg-light-900 dark:bg-dark-200;
     }
     .background-light900_dark300{
@@ -27,6 +27,10 @@
 
     .background-light700_dark300{
         @apply bg-light-700 dark:bg-dark-300
+    }
+
+    .background-light800_dark100{
+        @apply bg-light-800 dark:bg-dark-100
     }
 
     .background-light800_dark300{
@@ -149,10 +153,10 @@
     }
 
     .placeholder{
-        @apply placeholder:text-light-400 dark:placeholder:text-light
+        @apply placeholder:text-light-400 dark:placeholder:text-light-800;
     }
 
-    .invert-color{
+    .invert-colors{
         @apply invert dark:invert-0
     }
 
